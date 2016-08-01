@@ -6,8 +6,6 @@ JRPlaceHolder is a [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTa
  1. [Usage scenario](#Usage scenario)
  1. [中文](#中文)
 
- ## introduction
-
  ## Example
  ```Objective-C
  #import <UITableView+JRTableViewPlaceHolder.h>
@@ -38,9 +36,15 @@ JRPlaceHolder is a [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTa
 
  ##中文
  1. [介绍](#介绍)
+ 1. [使用示例](#使用示例)
+ 1. [引入方式](#引入方式)
+ 1. [使用场景](#使用场景)
+
+## 介绍
+
  JRPlaceHolder受[CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTableViewPlaceHolder)框架的启发，使用响应式编程思想，将方法尽可能的封装，使用起来更加的方便，既不影响之前的代码，也不用修改现在的代码，只需在所需的位置加一行代码作为配置即可，可以说是零成本集成。
 
- 1. [使用示例](#使用示例)
+## 使用示例
 
  ```Objective-C
  #import <UITableView+JRTableViewPlaceHolder.h>
@@ -57,7 +61,8 @@ JRPlaceHolder is a [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTa
     }];
     //程序会在[tableView reloadData]方法中自动检查是否为空。
 
- 1. [引入方式](#引入方式)
+## 引入方式
+
  JRPlaceHolder 支持iOS 6.0以上的系统。
  暂不支持pod方式引入(正在申请)，需要引入的话可以直接将UITableView+JRTableViewPlaceHolder的.h文件和.m文件拖入到项目中。
  如果需要所有的文件和演示的DEMO，可以克隆该库
@@ -65,24 +70,24 @@ JRPlaceHolder is a [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTa
  git clone --recursive https://github.com/JerryLoveRice/JRPlaceHolder.git
  ```
 
- 1. [使用场景](#使用场景)
+## 使用场景
 
  | | 
 -------------|-------------|-------------
-![](Logo/11.jpg) | ![](Logo/12.jpg) | ![](Logo/13.jpg)
-![](Logo/21.jpg) | ![](Logo/22.jpg) | ![](Logo/23.jpg)
-![](Logo/31.jpg) | ![](Logo/32.jpg) | ![](Logo/33.jpg)
-![](Logo/41.jpg) | ![](Logo/42.jpg) | ![](Logo/43.jpg)
-![](Logo/51.jpg) | ![](Logo/52.jpg) | ![](Logo/53.jpg)
-![](Logo/61.jpg) | ![](Logo/62.jpg) | ![](Logo/63.jpg)
-![](Logo/71.jpg) | ![](Logo/72.jpg) | ![](Logo/73.jpg)
-![](Logo/81.jpg) | ![](Logo/82.jpg) | ![](Logo/83.jpg)
-![](Logo/91.jpg) | ![](Logo/92.jpg) | ![](Logo/93.jpg)
-![](Logo/101.jpg) | ![](Logo/102.jpg) | ![](Logo/103.jpg)
-![](Logo/111.jpg) | ![](Logo/112.jpg) | ![](Logo/113.jpg)
-![](Logo/121.jpg) | ![](Logo/122.jpg) | ![](Logo/123.jpg)
-![](Logo/131.jpg) | ![](Logo/132.jpg) | ![](Logo/133.jpg)
-![](Logo/141.jpg) | ![](Logo/142.jpg) | ![](Logo/143.jpg)
+![](Logo/11.jpeg) | ![](Logo/12.jpeg) | ![](Logo/13.jpeg)
+![](Logo/21.jpeg) | ![](Logo/22.jpeg) | ![](Logo/23.jpeg)
+![](Logo/31.jpeg) | ![](Logo/32.jpeg) | ![](Logo/33.jpeg)
+![](Logo/41.jpeg) | ![](Logo/42.jpeg) | ![](Logo/43.jpeg)
+![](Logo/51.jpeg) | ![](Logo/52.jpeg) | ![](Logo/53.jpeg)
+![](Logo/61.jpeg) | ![](Logo/62.jpeg) | ![](Logo/63.jpeg)
+![](Logo/71.jpeg) | ![](Logo/72.jpeg) | ![](Logo/73.jpeg)
+![](Logo/81.jpeg) | ![](Logo/82.jpeg) | ![](Logo/83.jpeg)
+![](Logo/91.jpeg) | ![](Logo/92.jpeg) | ![](Logo/93.jpeg)
+![](Logo/101.jpeg) | ![](Logo/102.jpeg) | ![](Logo/103.jpeg)
+![](Logo/111.jpeg) | ![](Logo/112.jpeg) | ![](Logo/113.jpeg)
+![](Logo/121.jpeg) | ![](Logo/122.jpeg) | ![](Logo/123.jpeg)
+![](Logo/131.jpeg) | ![](Logo/132.jpeg) | ![](Logo/133.jpeg)
+![](Logo/141.jpeg) | ![](Logo/142.jpeg) | ![](Logo/143.jpeg)
 
  ## Licenses
 
