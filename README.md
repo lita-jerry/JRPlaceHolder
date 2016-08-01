@@ -14,14 +14,15 @@ JRPlaceHolder is a [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTa
 
  __weak __typeof(self)weakSelf = self;
  [self.tableView jr_configureWithPlaceHolderBlock:^UIView * _Nonnull(UITableView * _Nonnull sender) {
-   //这里做一些空数据的操作，例如弹出一些提醒性的文字等
-   [weakSelf.tableView setScrollEnabled:NO]; //禁止tableView滚动
-   return placeHolderView; //伪代码，此处返回数据为空时的显示的view
+   //do some things, such as pop alert view of wrong reason.
+   [weakSelf.tableView setScrollEnabled:NO];
+   return placeHolderView;
  } normalBlock:^(UITableView * _Nonnull sender) {
-	//这里做一些恢复性的操作
-	[weakSelf.tableView setScrollEnabled:YES]; //恢复tableView滚动
+	//do some thins for recovery
+	[weakSelf.tableView setScrollEnabled:YES];
  }];
  //Will auto check whether the data is empty in the [tableView reloadData] method.
+```
 
  ## Installation
  JRPlaceHolder supports `iOS 6.0+`.
@@ -46,7 +47,7 @@ JRPlaceHolder is a [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTa
 
 ## 使用示例
 
- ```Objective-C
+```Objective-C
  #import <UITableView+JRTableViewPlaceHolder.h>
 
  ...
@@ -60,6 +61,7 @@ JRPlaceHolder is a [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTa
         [weakSelf.tableView setScrollEnabled:YES]; //恢复tableView滚动
     }];
     //程序会在[tableView reloadData]方法中自动检查是否为空。
+```
 
 ## 引入方式
 
@@ -89,6 +91,6 @@ JRPlaceHolder is a [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTa
 ![](Logo/131.jpeg) | ![](Logo/132.jpeg) | ![](Logo/133.jpeg)
 ![](Logo/141.jpeg) | ![](Logo/142.jpeg) | ![](Logo/143.jpeg)
 
- ## Licenses
+## Licenses
 
 All source code is licensed under the [MIT License](https://raw.githubusercontent.com/JerryLoveRice/JRPlaceHolder/master/LICENSE).
