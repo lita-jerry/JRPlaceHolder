@@ -68,7 +68,8 @@
         if(!self.jr_placeHolderView) @throw [NSException exceptionWithName:NSGenericException
                                                  reason:[NSString stringWithFormat:@"must return a view at the time of calling the jr_configureWithPlaceHolderBlock:: in the first block."]
                                                userInfo:nil];
-        self.jr_placeHolderView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+//        self.jr_placeHolderView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height); https://github.com/JerryLoveRice/JRPlaceHolder/issues/1
+        self.jr_placeHolderView.frame = self.bounds;
         [self addSubview:self.jr_placeHolderView];
     }else{
         //remove the placeHolder from super view
