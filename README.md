@@ -29,7 +29,7 @@ JRPlaceHolder supports `iOS 6.0+`.
 Currently does not support the introduction of pod, you can drag the UITableView+JRTableViewPlaceHolder .H and.M file into the yours project(Currently being applied).
 In order to gain access to all the files from the repository, you should clone it.
 ```
-git clone --recursive https://github.com/JerryLoveRice/JRPlaceHolder.git
+git clone --recursive https://github.com/JerrySir/JRPlaceHolder.git
 ```
 
 ## Usage scenario
@@ -69,7 +69,7 @@ JRPlaceHolder 支持iOS 6.0以上的系统。
 暂不支持pod方式引入(正在申请)，需要引入的话可以直接将UITableView+JRTableViewPlaceHolder的.h文件和.m文件拖入到项目中。
 如果需要所有的文件和演示的DEMO，可以克隆该库
 ```
-git clone --recursive https://github.com/JerryLoveRice/JRPlaceHolder.git
+git clone --recursive https://github.com/JerrySir/JRPlaceHolder.git
 ```
 
 ## 使用场景
@@ -93,4 +93,4 @@ git clone --recursive https://github.com/JerryLoveRice/JRPlaceHolder.git
 
 ## Licenses
 
-All source code is licensed under the [MIT License](https://raw.githubusercontent.com/JerryLoveRice/JRPlaceHolder/master/LICENSE).
+All source code is licensed under the [MIT License](https://raw.githubusercontent.com/JerrySir/JRPlaceHolder/master/LICENSE).
