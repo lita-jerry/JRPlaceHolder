@@ -74,8 +74,7 @@ git clone --recursive https://github.com/JerrySir/JRPlaceHolder.git
 
 ## 使用场景
 
- | | 
--------------|-------------|-------------
+ | | -------------|-------------|-------------
 ![](Logo/11.jpeg) | ![](Logo/12.jpeg) | ![](Logo/13.jpeg)
 ![](Logo/21.jpeg) | ![](Logo/22.jpeg) | ![](Logo/23.jpeg)
 ![](Logo/31.jpeg) | ![](Logo/32.jpeg) | ![](Logo/33.jpeg)
