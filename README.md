@@ -3,7 +3,7 @@ JRPlaceHolder is a [CYLTableViewPlaceHolder](https://github.com/ChenYilong/CYLTa
 
  1. [Example](#Example)
  1. [Installation](#Installation)
- 1. [Usage scenario](#Usage scenario)
+ 1. [Usage scenario](#UsageScenario)
  1. [中文](#中文)
 
 ### Example
@@ -32,7 +32,7 @@ In order to gain access to all the files from the repository, you should clone i
 git clone --recursive https://github.com/JerrySir/JRPlaceHolder.git
 ```
 
-### Usage scenario
+### UsageScenario
 [Click here](#使用场景)
 
 # 中文
