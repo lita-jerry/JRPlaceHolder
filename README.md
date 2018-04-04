@@ -35,7 +35,7 @@ git clone --recursive https://github.com/JerrySir/JRPlaceHolder.git
 ### Usage scenario
 [Click here](#使用场景)
 
-###中文
+# 中文
  1. [介绍](#介绍)
  1. [使用示例](#使用示例)
  1. [引入方式](#引入方式)
